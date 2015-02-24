@@ -17,23 +17,10 @@
 		A07F0D8D1A95336600837957 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F0D8C1A95336600837957 /* DataManager.swift */; };
 		A07F0D8F1A95337500837957 /* TopApps.json in Resources */ = {isa = PBXBuildFile; fileRef = A07F0D8E1A95337500837957 /* TopApps.json */; };
 		A07F0D911A95338200837957 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F0D901A95338200837957 /* SwiftyJSON.swift */; };
+		B122F38EA65880DFA2BC32DD /* libPods-glx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DC680E032129D4C0CD93D1 /* libPods-glx.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A00543521A9B7EB200791A65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A005434D1A9B7EB000791A65 /* AeroGearOAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4833046219AF1635002F8DA9;
-			remoteInfo = AeroGearOAuth2;
-		};
-		A00543541A9B7EB200791A65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A005434D1A9B7EB000791A65 /* AeroGearOAuth2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4833046D19AF1635002F8DA9;
-			remoteInfo = AeroGearOAuth2Tests;
-		};
 		A07F0D7B1A9532F400837957 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A07F0D5D1A9532F300837957 /* Project object */;
@@ -43,21 +30,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		A00543581A9B7EC900791A65 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		A005434D1A9B7EB000791A65 /* AeroGearOAuth2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AeroGearOAuth2.xcodeproj; path = "aerogear-ios-oauth2/AeroGearOAuth2.xcodeproj"; sourceTree = "<group>"; };
+		3EB39A0944EE542288A67BD9 /* Pods-glx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-glx/Pods-glx.debug.xcconfig"; sourceTree = "<group>"; };
+		42DC680E032129D4C0CD93D1 /* libPods-glx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-glx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07F0D651A9532F400837957 /* glx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07F0D691A9532F400837957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07F0D6A1A9532F400837957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +47,7 @@
 		A07F0D8C1A95336600837957 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A07F0D8E1A95337500837957 /* TopApps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TopApps.json; path = ../TopApps.json; sourceTree = "<group>"; };
 		A07F0D901A95338200837957 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D28A487BA9C98C2C821257ED /* Pods-glx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glx.release.xcconfig"; path = "Pods/Target Support Files/Pods-glx/Pods-glx.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B122F38EA65880DFA2BC32DD /* libPods-glx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,13 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A005434E1A9B7EB000791A65 /* Products */ = {
+		2D146856D9FAFD53F500BA3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A00543531A9B7EB200791A65 /* AeroGearOAuth2.framework */,
-				A00543551A9B7EB200791A65 /* AeroGearOAuth2Tests.xctest */,
+				3EB39A0944EE542288A67BD9 /* Pods-glx.debug.xcconfig */,
+				D28A487BA9C98C2C821257ED /* Pods-glx.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BC27CB5355594B188235CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42DC680E032129D4C0CD93D1 /* libPods-glx.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A07F0D5C1A9532F300837957 = {
@@ -107,7 +92,8 @@
 				A07F0D671A9532F400837957 /* glx */,
 				A07F0D7D1A9532F400837957 /* glxTests */,
 				A07F0D661A9532F400837957 /* Products */,
-				A005434D1A9B7EB000791A65 /* AeroGearOAuth2.xcodeproj */,
+				2D146856D9FAFD53F500BA3E /* Pods */,
+				8BC27CB5355594B188235CD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,10 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07F0D841A9532F400837957 /* Build configuration list for PBXNativeTarget "glx" */;
 			buildPhases = (
+				AA38FCFAA5E816D4972B3E71 /* Check Pods Manifest.lock */,
 				A07F0D611A9532F400837957 /* Sources */,
 				A07F0D621A9532F400837957 /* Frameworks */,
 				A07F0D631A9532F400837957 /* Resources */,
-				A00543581A9B7EC900791A65 /* Copy Frameworks */,
+				31F318288947149F0E853478 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,12 +217,6 @@
 			mainGroup = A07F0D5C1A9532F300837957;
 			productRefGroup = A07F0D661A9532F400837957 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A005434E1A9B7EB000791A65 /* Products */;
-					ProjectRef = A005434D1A9B7EB000791A65 /* AeroGearOAuth2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A07F0D641A9532F400837957 /* glx */,
@@ -243,23 +224,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A00543531A9B7EB200791A65 /* AeroGearOAuth2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AeroGearOAuth2.framework;
-			remoteRef = A00543521A9B7EB200791A65 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A00543551A9B7EB200791A65 /* AeroGearOAuth2Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AeroGearOAuth2Tests.xctest;
-			remoteRef = A00543541A9B7EB200791A65 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A07F0D631A9532F400837957 /* Resources */ = {
@@ -281,6 +245,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F318288947149F0E853478 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-glx/Pods-glx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA38FCFAA5E816D4972B3E71 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A07F0D611A9532F400837957 /* Sources */ = {
@@ -412,6 +409,7 @@
 		};
 		A07F0D851A9532F400837957 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB39A0944EE542288A67BD9 /* Pods-glx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = glx/Info.plist;
@@ -423,6 +421,7 @@
 		};
 		A07F0D861A9532F400837957 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28A487BA9C98C2C821257ED /* Pods-glx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = glx/Info.plist;

@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0901EAA3566CB16C5743BECB /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = E377FC800927A5C99A9D7272 /* Http.swift */; };
+		1152BD818850850C82A77B8E /* OAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D7D9AC9C9534C5FA8300A3 /* OAuth2Module.swift */; };
+		12927BF10462DC1A93762653 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E85CF10AA81F866761BE5 /* AccountManager.swift */; };
+		1C86EEAE39DB7D263E970066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C00C1AC88106D971CBF5046 /* Foundation.framework */; };
+		25AD5EF455AB9A2730E932A5 /* OpenIDClaim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7611AA00D69DF7BA8CD5E356 /* OpenIDClaim.swift */; };
+		26BDA9F273BD366E2EFB425C /* TrustedPersistantOAuth2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011DEA042BF1428F9AFB8ED7 /* TrustedPersistantOAuth2Session.swift */; };
+		381FD247FF71163F7E40B0E2 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3061C5CF90C98895702768 /* RequestSerializer.swift */; };
+		3E5366217FC5743E60B5A8C1 /* KeycloakOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEBE958ABE4E13133B25A51 /* KeycloakOAuth2Module.swift */; };
+		410C1F9304760534EA261410 /* UntrustedMemoryOAuth2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9B0A1239C4019F357FD72 /* UntrustedMemoryOAuth2Session.swift */; };
+		47301DB7F3631D2B58AD373E /* HttpRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBC6EF0D86BEF618E47782 /* HttpRequestSerializer.swift */; };
+		4FC8AE7389C7B796914EBEB7 /* Pods-glx-AeroGearOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114AD965340F4FDDB5F13A94 /* Pods-glx-AeroGearOAuth2-dummy.m */; };
+		576ABA4E67D931D059A05408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C00C1AC88106D971CBF5046 /* Foundation.framework */; };
+		5C0A807DF9F34AF2786A9D10 /* Pods-glx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B991BADAD54969B323788CEB /* Pods-glx-dummy.m */; };
+		6102A66817F88891E7365868 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FCC2323C7B8CA50DFD718 /* Config.swift */; };
+		6613457CFC3152FEBC22F878 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C03A11BF58D9897D4B9E14A /* Security.framework */; };
+		92107DD56A013C43AE53BE0A /* FacebookOAuth2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A6CF498EA573A466CD8AF /* FacebookOAuth2Module.swift */; };
+		9A21CF2CE728184D5AEECFD3 /* Pods-glx-AeroGearHttp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4745AD5C14D5E913D13E6178 /* Pods-glx-AeroGearHttp-dummy.m */; };
+		AA4212A4CA3A98C19B7E021C /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE272E69F2D3627C3C95B64 /* DateUtils.swift */; };
+		AB0F1818FF7A53B6947D3657 /* JsonResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBA49A8550C25DCF9B8631 /* JsonResponseSerializer.swift */; };
+		AFBE25BC75C2E1A4BB4EA029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C00C1AC88106D971CBF5046 /* Foundation.framework */; };
+		B6EBD6B0E042A49D14513DE7 /* OAuth2Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95CF7723F1DE36D708CD58 /* OAuth2Session.swift */; };
+		BB9581FA6FCBCAA12F047B80 /* StringResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FECB35FB1A1955CE131E91 /* StringResponseSerializer.swift */; };
+		BEAE72D738DA91B7449304D3 /* AuthzModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71172DE04AD8155CA06C0D11 /* AuthzModule.swift */; };
+		CDA799762AD9A9230EF84E45 /* JsonRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1154A2B7A382CE61A0B3DB9 /* JsonRequestSerializer.swift */; };
+		E547F03445C58D3628DA789E /* MultiPartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2C3F96E8030F72BBD961C /* MultiPartData.swift */; };
+		F0A95381AFA2685F5052CFC9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF941789B4009FAD7764997D /* Utils.swift */; };
+		F5714FF7A3D9F0B769DE1630 /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE8149E77EC5BB65FC5B12 /* ResponseSerializer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F56C45B8C0D75BA516C532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06BBFBF54A427E42D8FF8A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0197EE5ADD952940CF6903D5;
+			remoteInfo = "Pods-glx-AeroGearOAuth2";
+		};
+		A2872F3EEA903C823AB24635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06BBFBF54A427E42D8FF8A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317EAF04828D15C62AC9921D;
+			remoteInfo = "Pods-glx-AeroGearHttp";
+		};
+		FCB3F5AA706D52C3BC13D813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06BBFBF54A427E42D8FF8A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317EAF04828D15C62AC9921D;
+			remoteInfo = "Pods-glx-AeroGearHttp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011DEA042BF1428F9AFB8ED7 /* TrustedPersistantOAuth2Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrustedPersistantOAuth2Session.swift; path = AeroGearOAuth2/TrustedPersistantOAuth2Session.swift; sourceTree = "<group>"; };
+		04749EB2B0FB092A3AC2C1CC /* Pods-glx-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-glx-acknowledgements.plist"; sourceTree = "<group>"; };
+		064A6CF498EA573A466CD8AF /* FacebookOAuth2Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FacebookOAuth2Module.swift; path = AeroGearOAuth2/FacebookOAuth2Module.swift; sourceTree = "<group>"; };
+		0CAB7E78684FAA9F0F9185F1 /* Pods-glx-AeroGearOAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-glx-AeroGearOAuth2-prefix.pch"; sourceTree = "<group>"; };
+		0EE272E69F2D3627C3C95B64 /* DateUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtils.swift; path = AeroGearOAuth2/DateUtils.swift; sourceTree = "<group>"; };
+		114AD965340F4FDDB5F13A94 /* Pods-glx-AeroGearOAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-glx-AeroGearOAuth2-dummy.m"; sourceTree = "<group>"; };
+		15F8D9A2E69F4F60B6AF6C54 /* Pods-glx-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-glx-environment.h"; sourceTree = "<group>"; };
+		21137ACEBD02B889FB378177 /* Pods-glx-AeroGearHttp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx-AeroGearHttp.xcconfig"; sourceTree = "<group>"; };
+		231F71B8EF7214563CD9201F /* Pods-glx-AeroGearOAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx-AeroGearOAuth2.xcconfig"; sourceTree = "<group>"; };
+		28F9B0A1239C4019F357FD72 /* UntrustedMemoryOAuth2Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UntrustedMemoryOAuth2Session.swift; path = AeroGearOAuth2/UntrustedMemoryOAuth2Session.swift; sourceTree = "<group>"; };
+		2C03A11BF58D9897D4B9E14A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2DBE8149E77EC5BB65FC5B12 /* ResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerializer.swift; path = AeroGearHttp/ResponseSerializer.swift; sourceTree = "<group>"; };
+		320AF828FD69089BB8B52BA6 /* libPods-glx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-glx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3D638D6BA5FCE4BDA17032 /* Pods-glx-AeroGearHttp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx-AeroGearHttp-Private.xcconfig"; sourceTree = "<group>"; };
+		4296882AF5644A68D36F8E8C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4745AD5C14D5E913D13E6178 /* Pods-glx-AeroGearHttp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-glx-AeroGearHttp-dummy.m"; sourceTree = "<group>"; };
+		4DB392E8558D9770B822AB67 /* libPods-glx-AeroGearHttp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-glx-AeroGearHttp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E85CF10AA81F866761BE5 /* AccountManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountManager.swift; path = AeroGearOAuth2/AccountManager.swift; sourceTree = "<group>"; };
+		6E95CF7723F1DE36D708CD58 /* OAuth2Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Session.swift; path = AeroGearOAuth2/OAuth2Session.swift; sourceTree = "<group>"; };
+		6EEBE958ABE4E13133B25A51 /* KeycloakOAuth2Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeycloakOAuth2Module.swift; path = AeroGearOAuth2/KeycloakOAuth2Module.swift; sourceTree = "<group>"; };
+		71172DE04AD8155CA06C0D11 /* AuthzModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthzModule.swift; path = AeroGearHttp/AuthzModule.swift; sourceTree = "<group>"; };
+		72D7D9AC9C9534C5FA8300A3 /* OAuth2Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Module.swift; path = AeroGearOAuth2/OAuth2Module.swift; sourceTree = "<group>"; };
+		73E6D655B4021E1898526FDB /* Pods-glx-AeroGearOAuth2-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx-AeroGearOAuth2-Private.xcconfig"; sourceTree = "<group>"; };
+		7611AA00D69DF7BA8CD5E356 /* OpenIDClaim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenIDClaim.swift; path = AeroGearOAuth2/OpenIDClaim.swift; sourceTree = "<group>"; };
+		7C00C1AC88106D971CBF5046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		879FCC2323C7B8CA50DFD718 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = AeroGearOAuth2/Config.swift; sourceTree = "<group>"; };
+		8AE6F4CAEA69F411D3FAA44F /* Pods-glx-AeroGearHttp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-glx-AeroGearHttp-prefix.pch"; sourceTree = "<group>"; };
+		A3DBA49A8550C25DCF9B8631 /* JsonResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonResponseSerializer.swift; path = AeroGearHttp/JsonResponseSerializer.swift; sourceTree = "<group>"; };
+		A5FECB35FB1A1955CE131E91 /* StringResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResponseSerializer.swift; path = AeroGearHttp/StringResponseSerializer.swift; sourceTree = "<group>"; };
+		A8B5FE49A292F3747089B0B6 /* Pods-glx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx.release.xcconfig"; sourceTree = "<group>"; };
+		AF154F6DEDDC78D79F8C5926 /* Pods-glx-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-glx-resources.sh"; sourceTree = "<group>"; };
+		AF941789B4009FAD7764997D /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = AeroGearHttp/Utils.swift; sourceTree = "<group>"; };
+		B1154A2B7A382CE61A0B3DB9 /* JsonRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonRequestSerializer.swift; path = AeroGearHttp/JsonRequestSerializer.swift; sourceTree = "<group>"; };
+		B5DBC6EF0D86BEF618E47782 /* HttpRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequestSerializer.swift; path = AeroGearHttp/HttpRequestSerializer.swift; sourceTree = "<group>"; };
+		B991BADAD54969B323788CEB /* Pods-glx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-glx-dummy.m"; sourceTree = "<group>"; };
+		C26E281FB5B12665B5A57290 /* libPods-glx-AeroGearOAuth2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-glx-AeroGearOAuth2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7582573C8565F2D72038FD2 /* Pods-glx-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-glx-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCD2C3F96E8030F72BBD961C /* MultiPartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiPartData.swift; path = AeroGearHttp/MultiPartData.swift; sourceTree = "<group>"; };
+		DB3061C5CF90C98895702768 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = AeroGearHttp/RequestSerializer.swift; sourceTree = "<group>"; };
+		E377FC800927A5C99A9D7272 /* Http.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Http.swift; path = AeroGearHttp/Http.swift; sourceTree = "<group>"; };
+		FAE659F43CC4466F1C5C8EE7 /* Pods-glx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-glx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CAFD133B738F7B8C8DCE094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C86EEAE39DB7D263E970066 /* Foundation.framework in Frameworks */,
+				6613457CFC3152FEBC22F878 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9C53B6F9985AD0EB65CD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576ABA4E67D931D059A05408 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E15AC0D732711670DA0A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBE25BC75C2E1A4BB4EA029 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C2C0385C54B1347D507C7F = {
+			isa = PBXGroup;
+			children = (
+				4296882AF5644A68D36F8E8C /* Podfile */,
+				ABB50E217D30DC955471D381 /* Frameworks */,
+				B349D4F7971F084F4975666C /* Pods */,
+				5C706D930C2E92C0E01662E4 /* Products */,
+				A0E38041C49C236E8CEB53A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		070AB591C8D80DFA73F82EBC /* AeroGearOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				660E85CF10AA81F866761BE5 /* AccountManager.swift */,
+				879FCC2323C7B8CA50DFD718 /* Config.swift */,
+				0EE272E69F2D3627C3C95B64 /* DateUtils.swift */,
+				064A6CF498EA573A466CD8AF /* FacebookOAuth2Module.swift */,
+				6EEBE958ABE4E13133B25A51 /* KeycloakOAuth2Module.swift */,
+				72D7D9AC9C9534C5FA8300A3 /* OAuth2Module.swift */,
+				6E95CF7723F1DE36D708CD58 /* OAuth2Session.swift */,
+				7611AA00D69DF7BA8CD5E356 /* OpenIDClaim.swift */,
+				011DEA042BF1428F9AFB8ED7 /* TrustedPersistantOAuth2Session.swift */,
+				28F9B0A1239C4019F357FD72 /* UntrustedMemoryOAuth2Session.swift */,
+				4C8868D7CF869537135CBECA /* Support Files */,
+			);
+			path = AeroGearOAuth2;
+			sourceTree = "<group>";
+		};
+		2FCCB9C316332927D0D70CE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21137ACEBD02B889FB378177 /* Pods-glx-AeroGearHttp.xcconfig */,
+				3B3D638D6BA5FCE4BDA17032 /* Pods-glx-AeroGearHttp-Private.xcconfig */,
+				4745AD5C14D5E913D13E6178 /* Pods-glx-AeroGearHttp-dummy.m */,
+				8AE6F4CAEA69F411D3FAA44F /* Pods-glx-AeroGearHttp-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-glx-AeroGearHttp";
+			sourceTree = "<group>";
+		};
+		372E9524E984C706727327AF /* AeroGearHttp */ = {
+			isa = PBXGroup;
+			children = (
+				71172DE04AD8155CA06C0D11 /* AuthzModule.swift */,
+				E377FC800927A5C99A9D7272 /* Http.swift */,
+				B5DBC6EF0D86BEF618E47782 /* HttpRequestSerializer.swift */,
+				B1154A2B7A382CE61A0B3DB9 /* JsonRequestSerializer.swift */,
+				A3DBA49A8550C25DCF9B8631 /* JsonResponseSerializer.swift */,
+				CCD2C3F96E8030F72BBD961C /* MultiPartData.swift */,
+				DB3061C5CF90C98895702768 /* RequestSerializer.swift */,
+				2DBE8149E77EC5BB65FC5B12 /* ResponseSerializer.swift */,
+				A5FECB35FB1A1955CE131E91 /* StringResponseSerializer.swift */,
+				AF941789B4009FAD7764997D /* Utils.swift */,
+				2FCCB9C316332927D0D70CE4 /* Support Files */,
+			);
+			path = AeroGearHttp;
+			sourceTree = "<group>";
+		};
+		4C8868D7CF869537135CBECA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				231F71B8EF7214563CD9201F /* Pods-glx-AeroGearOAuth2.xcconfig */,
+				73E6D655B4021E1898526FDB /* Pods-glx-AeroGearOAuth2-Private.xcconfig */,
+				114AD965340F4FDDB5F13A94 /* Pods-glx-AeroGearOAuth2-dummy.m */,
+				0CAB7E78684FAA9F0F9185F1 /* Pods-glx-AeroGearOAuth2-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-glx-AeroGearOAuth2";
+			sourceTree = "<group>";
+		};
+		5C706D930C2E92C0E01662E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320AF828FD69089BB8B52BA6 /* libPods-glx.a */,
+				4DB392E8558D9770B822AB67 /* libPods-glx-AeroGearHttp.a */,
+				C26E281FB5B12665B5A57290 /* libPods-glx-AeroGearOAuth2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E38041C49C236E8CEB53A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C69E762566AEE0A803E2DE /* Pods-glx */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABB50E217D30DC955471D381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCAD77C98621F3C5060DC8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B349D4F7971F084F4975666C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				372E9524E984C706727327AF /* AeroGearHttp */,
+				070AB591C8D80DFA73F82EBC /* AeroGearOAuth2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6C69E762566AEE0A803E2DE /* Pods-glx */ = {
+			isa = PBXGroup;
+			children = (
+				C7582573C8565F2D72038FD2 /* Pods-glx-acknowledgements.markdown */,
+				04749EB2B0FB092A3AC2C1CC /* Pods-glx-acknowledgements.plist */,
+				B991BADAD54969B323788CEB /* Pods-glx-dummy.m */,
+				15F8D9A2E69F4F60B6AF6C54 /* Pods-glx-environment.h */,
+				AF154F6DEDDC78D79F8C5926 /* Pods-glx-resources.sh */,
+				FAE659F43CC4466F1C5C8EE7 /* Pods-glx.debug.xcconfig */,
+				A8B5FE49A292F3747089B0B6 /* Pods-glx.release.xcconfig */,
+			);
+			name = "Pods-glx";
+			path = "Target Support Files/Pods-glx";
+			sourceTree = "<group>";
+		};
+		E7BCAD77C98621F3C5060DC8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C00C1AC88106D971CBF5046 /* Foundation.framework */,
+				2C03A11BF58D9897D4B9E14A /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0197EE5ADD952940CF6903D5 /* Pods-glx-AeroGearOAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C77D253C574E1D02EFB1D8 /* Build configuration list for PBXNativeTarget "Pods-glx-AeroGearOAuth2" */;
+			buildPhases = (
+				32262E632E60EE5AE8167CA1 /* Sources */,
+				0CAFD133B738F7B8C8DCE094 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3996082FD223B107AB5EDD7F /* PBXTargetDependency */,
+			);
+			name = "Pods-glx-AeroGearOAuth2";
+			productName = "Pods-glx-AeroGearOAuth2";
+			productReference = C26E281FB5B12665B5A57290 /* libPods-glx-AeroGearOAuth2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		317EAF04828D15C62AC9921D /* Pods-glx-AeroGearHttp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058F01F8BB9C3FA72EB2F745 /* Build configuration list for PBXNativeTarget "Pods-glx-AeroGearHttp" */;
+			buildPhases = (
+				2B8F05919D239879A8BF7993 /* Sources */,
+				7B9C53B6F9985AD0EB65CD42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-glx-AeroGearHttp";
+			productName = "Pods-glx-AeroGearHttp";
+			productReference = 4DB392E8558D9770B822AB67 /* libPods-glx-AeroGearHttp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		577BF6A39B8D8E47225E8C7D /* Pods-glx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DBC4F7E5B3F957284DB881 /* Build configuration list for PBXNativeTarget "Pods-glx" */;
+			buildPhases = (
+				13AE80EC5F007F953F2A7B25 /* Sources */,
+				B7E15AC0D732711670DA0A2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D37F47CD61919E7B7694D3 /* PBXTargetDependency */,
+				B92F13888128D1F4C5082DFB /* PBXTargetDependency */,
+			);
+			name = "Pods-glx";
+			productName = "Pods-glx";
+			productReference = 320AF828FD69089BB8B52BA6 /* libPods-glx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06BBFBF54A427E42D8FF8A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1A036C914979A4BA2E84E57D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05C2C0385C54B1347D507C7F;
+			productRefGroup = 5C706D930C2E92C0E01662E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577BF6A39B8D8E47225E8C7D /* Pods-glx */,
+				317EAF04828D15C62AC9921D /* Pods-glx-AeroGearHttp */,
+				0197EE5ADD952940CF6903D5 /* Pods-glx-AeroGearOAuth2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AE80EC5F007F953F2A7B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0A807DF9F34AF2786A9D10 /* Pods-glx-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8F05919D239879A8BF7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAE72D738DA91B7449304D3 /* AuthzModule.swift in Sources */,
+				0901EAA3566CB16C5743BECB /* Http.swift in Sources */,
+				47301DB7F3631D2B58AD373E /* HttpRequestSerializer.swift in Sources */,
+				CDA799762AD9A9230EF84E45 /* JsonRequestSerializer.swift in Sources */,
+				AB0F1818FF7A53B6947D3657 /* JsonResponseSerializer.swift in Sources */,
+				E547F03445C58D3628DA789E /* MultiPartData.swift in Sources */,
+				9A21CF2CE728184D5AEECFD3 /* Pods-glx-AeroGearHttp-dummy.m in Sources */,
+				381FD247FF71163F7E40B0E2 /* RequestSerializer.swift in Sources */,
+				F5714FF7A3D9F0B769DE1630 /* ResponseSerializer.swift in Sources */,
+				BB9581FA6FCBCAA12F047B80 /* StringResponseSerializer.swift in Sources */,
+				F0A95381AFA2685F5052CFC9 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32262E632E60EE5AE8167CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12927BF10462DC1A93762653 /* AccountManager.swift in Sources */,
+				6102A66817F88891E7365868 /* Config.swift in Sources */,
+				AA4212A4CA3A98C19B7E021C /* DateUtils.swift in Sources */,
+				92107DD56A013C43AE53BE0A /* FacebookOAuth2Module.swift in Sources */,
+				3E5366217FC5743E60B5A8C1 /* KeycloakOAuth2Module.swift in Sources */,
+				1152BD818850850C82A77B8E /* OAuth2Module.swift in Sources */,
+				B6EBD6B0E042A49D14513DE7 /* OAuth2Session.swift in Sources */,
+				25AD5EF455AB9A2730E932A5 /* OpenIDClaim.swift in Sources */,
+				4FC8AE7389C7B796914EBEB7 /* Pods-glx-AeroGearOAuth2-dummy.m in Sources */,
+				26BDA9F273BD366E2EFB425C /* TrustedPersistantOAuth2Session.swift in Sources */,
+				410C1F9304760534EA261410 /* UntrustedMemoryOAuth2Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27D37F47CD61919E7B7694D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-glx-AeroGearHttp";
+			target = 317EAF04828D15C62AC9921D /* Pods-glx-AeroGearHttp */;
+			targetProxy = A2872F3EEA903C823AB24635 /* PBXContainerItemProxy */;
+		};
+		3996082FD223B107AB5EDD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-glx-AeroGearHttp";
+			target = 317EAF04828D15C62AC9921D /* Pods-glx-AeroGearHttp */;
+			targetProxy = FCB3F5AA706D52C3BC13D813 /* PBXContainerItemProxy */;
+		};
+		B92F13888128D1F4C5082DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-glx-AeroGearOAuth2";
+			target = 0197EE5ADD952940CF6903D5 /* Pods-glx-AeroGearOAuth2 */;
+			targetProxy = 48F56C45B8C0D75BA516C532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A73C77731819C7CEA02E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE659F43CC4466F1C5C8EE7 /* Pods-glx.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		0A2E711780179810FD54058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B5FE49A292F3747089B0B6 /* Pods-glx.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		26ED672448D4C7FFC9FEF953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E6D655B4021E1898526FDB /* Pods-glx-AeroGearOAuth2-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-glx-AeroGearOAuth2/Pods-glx-AeroGearOAuth2-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E3B660583CC9760DAE92753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E6D655B4021E1898526FDB /* Pods-glx-AeroGearOAuth2-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-glx-AeroGearOAuth2/Pods-glx-AeroGearOAuth2-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A79C299FF44858817282551D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF1F57D20D86FB073EEA97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3D638D6BA5FCE4BDA17032 /* Pods-glx-AeroGearHttp-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-glx-AeroGearHttp/Pods-glx-AeroGearHttp-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC532ADA0EFA5C43CAFE22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F7111BAB81D6E24A881BE6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3D638D6BA5FCE4BDA17032 /* Pods-glx-AeroGearHttp-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-glx-AeroGearHttp/Pods-glx-AeroGearHttp-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058F01F8BB9C3FA72EB2F745 /* Build configuration list for PBXNativeTarget "Pods-glx-AeroGearHttp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF1F57D20D86FB073EEA97D /* Debug */,
+				F7111BAB81D6E24A881BE6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DBC4F7E5B3F957284DB881 /* Build configuration list for PBXNativeTarget "Pods-glx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A73C77731819C7CEA02E02 /* Debug */,
+				0A2E711780179810FD54058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A036C914979A4BA2E84E57D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC532ADA0EFA5C43CAFE22DC /* Debug */,
+				A79C299FF44858817282551D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C77D253C574E1D02EFB1D8 /* Build configuration list for PBXNativeTarget "Pods-glx-AeroGearOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B660583CC9760DAE92753 /* Debug */,
+				26ED672448D4C7FFC9FEF953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06BBFBF54A427E42D8FF8A46 /* Project object */;
+}
